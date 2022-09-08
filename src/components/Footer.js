@@ -19,7 +19,7 @@ export default function Footer() {
 					</a>
 				</p>
 				<p>
-					<a href="https://www.linkedin.com/">Linkedin</a>
+					<a href="https://www.linkedin.com/"> Linke-din</a>
 				</p>
 			</div>
 		</div>
