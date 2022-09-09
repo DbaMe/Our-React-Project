@@ -3,7 +3,7 @@ import ChefCard from "./ChefCard"
 export default function ChefsSection(){
     const chefs = [
         {
-            name: "Juan Carlos",
+            name: "Daniela Soto-Innes",
             img: "/img/topChef/img1.jpeg",
             recipesCount: "10",
             cuisine: "Mexican",
@@ -15,7 +15,7 @@ export default function ChefsSection(){
             cuisine: "Indian",
         },
         {
-            name: "Erich Maria",
+            name: "Eric Thomas",
             img: "/img/topChef/img3.jpeg",
             recipesCount: "13",
             cuisine: "Italian",
@@ -33,7 +33,7 @@ export default function ChefsSection(){
             cuisine: "French"
         },
         {
-            name: "Ben Affleck",
+            name: "Akane Eno",
             img: "/img/topChef/img6.jpg",
             recipesCount: "04",
             cuisine: "Japanese"
