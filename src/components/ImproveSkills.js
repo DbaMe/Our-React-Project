@@ -1,3 +1,5 @@
+import Form from "../pages/Form";
+
 export default function ImproveSkills() {
 	const list = [
 		"Learn new recepies",
@@ -20,7 +22,8 @@ export default function ImproveSkills() {
 						{item}
 					</p>
 				))}
-				<button className="btn">Sign-in now</button>
+				{/* <button className="btn">Sign-in now</button> */}
+				<Form />
 			</div>
 		</div>
 	);
