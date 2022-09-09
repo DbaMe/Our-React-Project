@@ -1,7 +1,7 @@
 export default function Footer() {
 	return (
 		<div className="footer container">
-			<div className="footer-section">
+			<div className="footer-section foot">
 				<p className="title">FoodiesExpress</p>
 				<p>
 					FoodiesExpress is a place where you can please your soul and tummy

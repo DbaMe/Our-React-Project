@@ -1,10 +1,14 @@
 .footer{
     background-color: #0f0f0f;
     color: #fff;
-    padding-block: 3em;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-gap: 1em;
+    padding-block: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1em; */
+
     .footer-section{
         p{
             opacity: .9;
@@ -14,7 +18,12 @@
             opacity: 1;
             font-size: 1.1em;
             font-weight: bold;
-            margin-bottom: 1em;
+            // margin-bottom: 1em;
         }
     }
+}
+.foot {
+    width: 300px;
+    padding-left: 20px;
+    margin-top: 1em;
 }

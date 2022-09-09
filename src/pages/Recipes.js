@@ -5,22 +5,22 @@ export default function Recipes(){
     const recipes = [
         {
             title: "Chicken Pan Pizza",
-            image: "/img/gallery/img1.jpg",
+            image: "/img/gallery/img01.jpg",
             authorImg: "/img/topChef/img1.jpeg",
         }, 
         {
             title: "Spaghetti and Meatballs",
-            image: "/img/gallery/img4.jpg",
+            image: "/img/gallery/img04.jpg",
             authorImg: "/img/topChef/img2.jpg",
         },
         {
             title: "American Cheese Burger",
-            image: "/img/gallery/img5.jpg",
+            image: "/img/gallery/img05.jpg",
             authorImg: "/img/topChef/img3.jpeg",
         },
         {
             title: "Mutton Biriyani",
-            image: "/img/gallery/img6.jpg",
+            image: "/img/gallery/img06.jpg",
             authorImg: "/img/topChef/img5.jpg",
         },
         {
@@ -30,22 +30,22 @@ export default function Recipes(){
         },
         {
             title: "Chicken Pan Pizza",
-            image: "/img/gallery/img1.jpg",
-            authorImg: "/img/topChef/img1.jpg",
+            image: "/img/gallery/img01.jpg",
+            authorImg: "/img/topChef/img1.jpeg",
         }, 
         {
             title: "Spaghetti and Meatballs",
-            image: "/img/gallery/img4.jpg",
+            image: "/img/gallery/img04.jpg",
             authorImg: "/img/topChef/img2.jpg",
         },
         {
             title: "American Cheese Burger",
-            image: "/img/gallery/img5.jpg",
-            authorImg: "/img/topChef/img3.jpg",
+            image: "/img/gallery/img05.jpg",
+            authorImg: "/img/topChef/img3.jpeg",
         },
         {
             title: "Mutton Biriyani",
-            image: "/img/gallery/img6.jpg",
+            image: "/img/gallery/img06.jpg",
             authorImg: "/img/topChef/img5.jpg",
         },
         {
@@ -55,12 +55,12 @@ export default function Recipes(){
         },
         {
             title: "American Cheese Burger",
-            image: "/img/gallery/img5.jpg",
-            authorImg: "/img/topChef/img3.jpg",
+            image: "/img/gallery/img05.jpg",
+            authorImg: "/img/topChef/img3.jpeg",
         },
         {
             title: "Mutton Biriyani",
-            image: "/img/gallery/img6.jpg",
+            image: "/img/gallery/img06.jpg",
             authorImg: "/img/topChef/img5.jpg",
         }
     ].sort(() => Math.random() - 0.5)

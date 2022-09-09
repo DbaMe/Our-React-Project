@@ -3,15 +3,15 @@ import CustomImage from "./CustomImage";
 
 export default function HeroSection() {
 	const images = [
-		"/img/gallery/img3.jpg",
-		"/img/gallery/img5.jpg",
-		"/img/gallery/img1.jpg",
-		"/img/gallery/img4.jpg",
-		"/img/gallery/img2.jpg",
-		"/img/gallery/img6.jpg",
-		"/img/gallery/img7.jpg",
-		"/img/gallery/img8.jpg",
-		"/img/gallery/img9.jpg",
+		"/img/gallery/img03.jpg",
+		"/img/gallery/img05.jpg",
+		"/img/gallery/img01.jpg",
+		"/img/gallery/img04.jpg",
+		"/img/gallery/img02.jpg",
+		"/img/gallery/img06.jpg",
+		"/img/gallery/img07.jpg",
+		"/img/gallery/img08.jpg",
+		"/img/gallery/img09.jpg",
 	];
 	return (
 		<div className="section hero">
@@ -22,7 +22,7 @@ export default function HeroSection() {
 					with delicious food recepies of all cuisine.And our service is
 					absolutely free. So start exploring now.
 				</p>
-				<button className="btn">explore more</button>
+				<button className="btn"><a href="https://www.food.com/" target="_blank">explore more</a></button>
 			</div>
 			<div className="col gallery">
 				{images.map((src, index) => (
