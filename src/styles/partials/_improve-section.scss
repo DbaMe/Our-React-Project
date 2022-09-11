@@ -1,28 +1,80 @@
-.section.improve-skills{
-    .col.img{
-        img{
-            width: 100%;
-        }
-    }
-    .col.typography{
-        padding-left: 1em;
-        .skill-item{
-            border-left: .2em solid var(--primary-color);
-            margin-bottom: .5em;
-            padding: .1em 0 .1em .5em;
-            color: var(--text-light);
-            font-weight: bold;
-            transform: translateX(100%);
-            opacity: 0;
-            animation: getAnimationDuration(.3s) slideInRight forwards;
-            @for $i from 2 through 7 {
-                &:nth-child(#{$i}){
-                    animation-delay: #{$i * .1}s;
-                }
-            }
-        }
-        .btn{
-            margin-top: .75em;
-        }
-    }
+.section.improve-skills {
+	.col.img {
+		img {
+			width: 100%;
+			height: 650px;
+		}
+	}
+	.col.typography {
+		padding-left: 1em;
+		.skill-item {
+			border-left: 0.2em solid var(--primary-color);
+			margin-bottom: 0.5em;
+			padding: 0.1em 0 0.1em 0.5em;
+			color: var(--text-light);
+			font-weight: bold;
+			transform: translateX(100%);
+			opacity: 0;
+			animation: getAnimationDuration(0.3s) slideInRight forwards;
+			@for $i from 2 through 7 {
+				&:nth-child(#{$i}) {
+					animation-delay: #{$i * 0.1}s;
+				}
+			}
+		}
+		.btns {
+			border: none;
+			outline: none;
+			background-color: var(--primary-color);
+			color: #fff;
+			padding: 0.75em 1em;
+			text-transform: uppercase;
+			font-size: 1em;
+			font-weight: bold;
+			letter-spacing: 1px;
+			border-radius: 3px;
+			box-shadow: 0 2px 6px #00000033;
+			&:hover {
+				box-shadow: 0 1px 3px #00000033;
+			}
+		}
+		.label {
+			display: block;
+			font-size: larger;
+			color: black;
+			padding: 5px;
+		}
+		.input {
+			font-size: larger;
+			padding: 5px;
+			margin: 2px;
+		}
+		.messages {
+			display: flex;
+			justify-content: center;
+		}
+
+		.error {
+			display: block;
+			background-color: red;
+			color: white;
+			width: fit-content;
+			height: 40px;
+			padding: 5px;
+			margin-top: 5px;
+			border-radius: 5px;
+		}
+
+		.success {
+			display: block;
+			background-color: green;
+			color: black;
+			width: fit-content;
+			height: 40px;
+			padding: 6px;
+			margin-top: 5px;
+			border-radius: 5px;
+			font-size: 0.6em;
+		}
+	}
 }
