@@ -22,7 +22,7 @@ export default function ImproveSkills() {
 						{item}
 					</p>
 				))}
-				{/* <button className="btn">Sign-in now</button> */}
+
 				<Form />
 			</div>
 		</div>
