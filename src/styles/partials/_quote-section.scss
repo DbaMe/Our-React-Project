@@ -1,6 +1,6 @@
 .section.quote{
     display: block;
-    .qoute-text{
+    .quote-text{
         font-size: 1.2em;
         line-height: 1.3;
         color: var(--text-color);
@@ -10,7 +10,7 @@
             margin-right: .5em;
         }
     }
-    .qoute-auther{
+    .quote-author{
         color: var(--text-light);
         text-align: right;
         margin-top: 1em;
