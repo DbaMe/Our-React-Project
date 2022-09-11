@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Form() {
-	// States for registration
+
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
@@ -10,29 +10,25 @@ export default function Form() {
 	const showForms = () => {
 		setShowForm(!showForm);
 	};
-	// States for checking the errors
+
 	const [submitted, setSubmitted] = useState(false);
 	const [error, setError] = useState(false);
 
-	// Handling the name change
 	const handleName = (e) => {
 		setName(e.target.value);
 		setSubmitted(false);
 	};
 
-	// Handling the email change
 	const handleEmail = (e) => {
 		setEmail(e.target.value);
 		setSubmitted(false);
 	};
 
-	// Handling the password change
 	const handlePassword = (e) => {
 		setPassword(e.target.value);
 		setSubmitted(false);
 	};
 
-	// Handling the form submission
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		if (name === "" || email === "" || password === "") {
@@ -43,7 +39,6 @@ export default function Form() {
 		}
 	};
 
-	// Showing success message
 	const successMessage = () => {
 		return (
 			<div
@@ -57,7 +52,6 @@ export default function Form() {
 		);
 	};
 
-	// Showing error message if error is true
 	const errorMessage = () => {
 		return (
 			<div
